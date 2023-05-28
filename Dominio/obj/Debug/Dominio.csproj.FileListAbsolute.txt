@@ -1,0 +1,18 @@
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.dll
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.pdb
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.dll
+S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.pdb
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.dll
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.pdb
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.dll
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.pdb
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.dll
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\bin\Debug\Dominio.pdb
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.dll
+C:\UltimaVersiom\Prog3-TP2\Prog3-TP2-main\TP2 (Gestion Articulos)\Dominio\obj\Debug\Dominio.pdb

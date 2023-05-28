@@ -120,3 +120,7 @@ C:\Tp-web-2\Carrito-Compras\TPCarritoCompras-Equipo18\obj\Debug\TPCarritoCompras
 C:\Tp-web-2\Carrito-Compras\TPCarritoCompras-Equipo18\obj\Debug\TPCarritoCompras-Equipo18.csproj.CopyComplete
 C:\Tp-web-2\Carrito-Compras\TPCarritoCompras-Equipo18\obj\Debug\TPCarritoCompras-Equipo18.dll
 C:\Tp-web-2\Carrito-Compras\TPCarritoCompras-Equipo18\obj\Debug\TPCarritoCompras-Equipo18.pdb
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Carrito-Compras\TPCarritoCompras-Equipo18\bin\Dominio.dll
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Carrito-Compras\TPCarritoCompras-Equipo18\bin\Negocio.dll
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Carrito-Compras\TPCarritoCompras-Equipo18\bin\Dominio.pdb
+C:\Users\BRIAN\OneDrive\Documentos\PROGRAMACION\UTN\SEGUNDO AÑO\Primer Cuatrimestre\Prog. 3\Carrito-Compras\TPCarritoCompras-Equipo18\bin\Negocio.pdb

@@ -20,7 +20,8 @@ namespace TPCarritoCompras_Equipo18
                 articuloNegocio negocio = new articuloNegocio();
                 ImagenNegocio img = new ImagenNegocio();
 
-                listaArticulos = negocio.listar();
+                List<Articulo> articulos = negocio.listar();
+                listaArticulos = articulos;
                 listaImagenes = img.listar();
             }
         }

@@ -4,11 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Listado de productos</h1>
-
     
+    
+    <%-- No uso repeater porque nunca pude hacer funcionar el onclick --%>
     <div class="container ">
         <div class="row row-cols-1 row-cols-md-3 g-4">
-            ">
+            
             <%-- Leo los articulos --%>
             <%foreach (Dominio.Articulo art in listaArticulos)
                 {
@@ -33,7 +34,8 @@
                         <h5 class="card-title"><%:art.Nombre %></h5>
                         <p class="card-text"><%: art.Descripcion %></p>
                         <a href="Detalle.aspx?id=<%:art.Id %>" class="btn btn-secondary">Ver detalle </a>
-                        <a href="Carrito.aspx" class="btn btn-secondary">Añadir al carrito </a>
+                        <%-- Redirecciono a la misma pagina para quedarme con el id --%>
+                        <a href="Default.aspx?id=<%:art.Id %>" class="btn btn-secondary">Añadir al carrito </a>
                     </div>
                 </div>
             </div>

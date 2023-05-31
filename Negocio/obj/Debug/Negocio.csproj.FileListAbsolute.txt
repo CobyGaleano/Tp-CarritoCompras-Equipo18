@@ -52,3 +52,12 @@ C:\Tp-Web3\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.ca
 C:\Tp-Web3\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Tp-Web3\Carrito-Compras\Negocio\obj\Debug\Negocio.dll
 C:\Tp-Web3\Carrito-Compras\Negocio\obj\Debug\Negocio.pdb
+C:\tp-ult\Carrito-Compras\Negocio\bin\Debug\Negocio.dll
+C:\tp-ult\Carrito-Compras\Negocio\bin\Debug\Negocio.pdb
+C:\tp-ult\Carrito-Compras\Negocio\bin\Debug\Dominio.dll
+C:\tp-ult\Carrito-Compras\Negocio\bin\Debug\Dominio.pdb
+C:\tp-ult\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\tp-ult\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\tp-ult\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\tp-ult\Carrito-Compras\Negocio\obj\Debug\Negocio.dll
+C:\tp-ult\Carrito-Compras\Negocio\obj\Debug\Negocio.pdb

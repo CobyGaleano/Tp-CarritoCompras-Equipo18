@@ -50,6 +50,7 @@ namespace TPCarritoCompras_Equipo18
                 carritoArticulos.Add(seleccionado);
                 //agrego la lista a la session
                 Session.Add("Articulos", carritoArticulos);
+                
 
             }
         }

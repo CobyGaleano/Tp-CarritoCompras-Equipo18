@@ -25,7 +25,9 @@
                             <a href="Default.aspx" class="nav-link active" aria-current="page">Articulos</a>
                         </li>
                         <li class="nav-item">
-                            <a href="Carrito.aspx" class="nav-link">Carrito</a>
+                            <a href="Carrito.aspx" class="nav-link">Carrito
+                            <span class="position-absolute translate-middle badge rounded-pill bg-secondary">#<span class="visually-hidden">unread messages</span></span>
+                            </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>

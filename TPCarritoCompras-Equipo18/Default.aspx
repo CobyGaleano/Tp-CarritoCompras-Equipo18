@@ -7,7 +7,7 @@
     
     
     <%-- No uso repeater porque nunca pude hacer funcionar el onclick --%>
-    <div class="container p-3">
+    <div class="container">
         <div class="row row-cols-1 row-cols-md-3 g-4">
             
             <%-- Leo los articulos --%>

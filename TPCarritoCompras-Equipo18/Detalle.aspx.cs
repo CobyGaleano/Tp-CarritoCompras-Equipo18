@@ -16,13 +16,14 @@ namespace TPCarritoCompras_Equipo18
         protected void Page_Load(object sender, EventArgs e)
         {
             articuloNegocio negocio = new articuloNegocio();
+            Articulo seleccionado;
             if (!IsPostBack)
             {
                 //Recibo el id del articulo seleccionado
-                int Id = int.Parse(Request.QueryString["id"]);
+                Id = int.Parse(Request.QueryString["id"]);
                 ImagenNegocio img = new ImagenNegocio();
                 //Traigo sus atributos
-                Articulo seleccionado = negocio.buscar(Id);
+                seleccionado = negocio.buscar(Id);
                 //Traigo las imagenes que se relacionan con el id, reutilizando el metodo listar
                 listaImagenes = img.listar(Id);
 
@@ -32,6 +33,32 @@ namespace TPCarritoCompras_Equipo18
                 lblCategoria.Text = seleccionado.categoria.Descripcion;
                 lblMarca.Text = seleccionado.marca.Descripcion;
                 lblPrecio.Text = seleccionado.Precio.ToString();
+            }
+
+            //Si en la url viene un id agrego el articulo a la session
+            if (Request.QueryString["Id"] != null)
+            {
+                List<Articulo> carritoArticulos;
+                //articuloNegocio negocio = new articuloNegocio();
+                //Articulo seleccionado;
+
+                //Si es el primer articulo le creo una instancia a la lista
+                if (Session["Articulos"] == null)
+                {
+                    carritoArticulos = new List<Articulo>();
+                }
+                //Si no a la lista le agrego a la lista lo que tiene la session 
+                else
+                {
+                    carritoArticulos = (List<Articulo>)Session["Articulos"];
+                }
+                string id = Request.QueryString["Id"];
+                //busco el articulo por el id
+                seleccionado = negocio.buscar(int.Parse(id));
+                //lo agrego a la lista 
+                carritoArticulos.Add(seleccionado);
+                //agrego la lista a la session
+                Session.Add("Articulos", carritoArticulos);
             }
         }
     }

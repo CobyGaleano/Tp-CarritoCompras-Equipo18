@@ -26,7 +26,8 @@
                         </li>
                         <li class="nav-item">
                             <a href="Carrito.aspx" class="nav-link">Carrito
-                            <span class="position-absolute translate-middle badge rounded-pill bg-secondary">#<span class="visually-hidden">unread messages</span></span>
+                            <span class="position-absolute translate-middle badge rounded-pill bg-secondary">
+                                0<span class="visually-hidden">unread messages</span></span>
                             </a>
                         </li>
                         <li class="nav-item">

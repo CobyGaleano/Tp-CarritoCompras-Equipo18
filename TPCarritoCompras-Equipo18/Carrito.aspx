@@ -3,8 +3,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container bg-light p-3" id="container-cart">
+    <div class="container bg-light p-3 position-relative" id="container-cart">
         <h1>Carrito de compras</h1>
+        
+        <%if (precioTotal != 0){ %>
         <div id="Container-items">
         <asp:GridView ID="dgvCarrito" runat="server" CssClass="table table-dark table-striped"
             AutoGenerateColumns="false">
@@ -18,9 +20,13 @@
         </div>
         <div id="footer-cart">
             <div class="col-12">
-                <label>Precio:</label>
+                <asp:Label Text="" ID="lblTotal" runat="server" />
             </div>
         </div>
+        <%}else { %>
+        <h3>El carrito esta vacio!</h3>
+        <a href="Default.aspx">Volver al listado</a>
+        <%} %>
     </div>
 
 

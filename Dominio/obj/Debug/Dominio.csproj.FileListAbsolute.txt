@@ -22,3 +22,9 @@ C:\Tp-web-2\Carrito-Compras\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.c
 C:\Tp-web-2\Carrito-Compras\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Tp-web-2\Carrito-Compras\Dominio\obj\Debug\Dominio.dll
 C:\Tp-web-2\Carrito-Compras\Dominio\obj\Debug\Dominio.pdb
+C:\Tp-Web3\Carrito-Compras\Dominio\bin\Debug\Dominio.dll
+C:\Tp-Web3\Carrito-Compras\Dominio\bin\Debug\Dominio.pdb
+C:\Tp-Web3\Carrito-Compras\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Tp-Web3\Carrito-Compras\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Tp-Web3\Carrito-Compras\Dominio\obj\Debug\Dominio.dll
+C:\Tp-Web3\Carrito-Compras\Dominio\obj\Debug\Dominio.pdb

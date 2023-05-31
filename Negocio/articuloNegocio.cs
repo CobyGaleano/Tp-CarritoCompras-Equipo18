@@ -220,6 +220,38 @@ namespace Negocio
                 throw ex;
             }
         }
+
+
+        //Busca un solo articulo
+        public Articulo buscar(int id)
+        {
+            AccesoDatos datos = new AccesoDatos();
+            try
+            {
+                datos.setearConsulta("select A.Codigo,A.Nombre,A.Descripcion,C.Descripcion Categoria,M.Descripcion Marca,A.Precio from ARTICULOS A , CATEGORIAS C , MARCAS M where A.IdCategoria=C.Id and A.IdMarca=M.Id and A.Id= @id ");
+                datos.setearParametros("id", id);
+                datos.ejecutarLectura();
+
+                datos.Lector.Read();
+
+                Articulo seleccionado = new Articulo();
+                seleccionado.Codigo = (string)datos.Lector["Codigo"];
+                seleccionado.Nombre = (string)datos.Lector["Nombre"];
+                seleccionado.Descripcion = (string)datos.Lector["Descripcion"];
+                seleccionado.categoria = new Categoria();
+                seleccionado.categoria.Descripcion = (string)datos.Lector["Categoria"];
+                seleccionado.marca = new Marca();
+                seleccionado.marca.Descripcion = (string)datos.Lector["Marca"];
+                seleccionado.Precio = (decimal)datos.Lector["Precio"];
+
+                return seleccionado;
+            }
+            catch (Exception ex)
+            {
+
+                throw ex;
+            }
+        }
     }
 }
                                          

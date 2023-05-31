@@ -9,7 +9,7 @@ namespace Negocio
 {
     public class ImagenNegocio
     {
-        public List<Imagen> listar()
+        public List<Imagen> listar(int id = 0)
         {
 
             List<Imagen> listar = new List<Imagen>();
@@ -17,7 +17,15 @@ namespace Negocio
 
             try
             {
-                datos.setearConsulta("select Id,IdArticulo,ImagenUrl from IMAGENES");
+                if (id > 0)
+                {
+                    datos.setearConsulta("select Id,IdArticulo,ImagenUrl from IMAGENES where IdArticulo= @id ");
+                    datos.setearParametros("id", id);
+                }
+                else
+                {
+                    datos.setearConsulta("select Id,IdArticulo,ImagenUrl from IMAGENES");
+                }
                 datos.ejecutarLectura();
 
                 while (datos.Lector.Read())

@@ -82,7 +82,7 @@
                     </div>
                     <div class="col-8 col-sm-12 p-3">
                         <%--<a href="Detalle.aspx?id=<%:Id%>" class="btn btn-secondary p-2">Añadir al carrito</a>--%>
-                        <asp:Button href="Detalle.aspx?id=<%:Id%>" ID="btn_Añadir" runat="server" Text="Añadir al carrito" OnClick="btn_Añadir_Click" CssClass="btn btn-secondary p-2"/>
+                        <asp:Button ID="btn_Añadir" runat="server" Text="Añadir al carrito" OnClick="btn_Añadir_Click" CssClass="btn btn-secondary p-2"/>
                     </div>
                     <asp:Label Text="" ID="lblAñadir" runat="server" />
                 </div>

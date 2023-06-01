@@ -33,14 +33,21 @@ namespace TPCarritoCompras_Equipo18
                 lblCategoria.Text = seleccionado.categoria.Descripcion;
                 lblMarca.Text = seleccionado.marca.Descripcion;
                 lblPrecio.Text = seleccionado.Precio.ToString();
+                lblAñadir.Text = "no se cliqueo";
             }
+        }
 
-            //Si en la url viene un id agrego el articulo a la session
-            if (Request.QueryString["Id"] != null)
+        protected void btn_Añadir_Click(object sender, EventArgs e)
+        {
+            lblAñadir.Text = "se añadio el producto al carrito";
+            try
             {
+                //Si en la url viene un id agrego el articulo a la session
+                //if (Request.QueryString["Id"] != null)
+                //{
                 List<Articulo> carritoArticulos;
-                //articuloNegocio negocio = new articuloNegocio();
-                //Articulo seleccionado;
+                articuloNegocio negocio = new articuloNegocio();
+                Articulo seleccionado;
 
                 //Si es el primer articulo le creo una instancia a la lista
                 if (Session["Articulos"] == null)
@@ -52,13 +59,19 @@ namespace TPCarritoCompras_Equipo18
                 {
                     carritoArticulos = (List<Articulo>)Session["Articulos"];
                 }
-                string id = Request.QueryString["Id"];
+                //string id = Request.QueryString["id"];
                 //busco el articulo por el id
-                seleccionado = negocio.buscar(int.Parse(id));
+                seleccionado = negocio.buscar(Id);
+                //seleccionado = negocio.buscar(int.Parse(id));
                 //lo agrego a la lista 
                 carritoArticulos.Add(seleccionado);
                 //agrego la lista a la session
                 Session.Add("Articulos", carritoArticulos);
+                //}                
+            }
+            catch (Exception ex)
+            {
+                throw ex;
             }
         }
     }

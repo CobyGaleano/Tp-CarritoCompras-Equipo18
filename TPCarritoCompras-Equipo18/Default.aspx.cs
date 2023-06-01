@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Web.UI.WebControls.WebParts;
 using Dominio;
 using Negocio;
 
@@ -50,11 +51,7 @@ namespace TPCarritoCompras_Equipo18
                 carritoArticulos.Add(seleccionado);
                 //agrego la lista a la session
                 Session.Add("Articulos", carritoArticulos);
-                
-
             }
         }
-
-
     }
 }

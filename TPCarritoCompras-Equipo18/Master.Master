@@ -26,9 +26,10 @@
                         </li>
                         <li class="nav-item">
                             <a href="Carrito.aspx" class="nav-link">Carrito
-                            <span class="position-absolute translate-middle badge rounded-pill bg-secondary">
-                                0<span class="visually-hidden">unread messages</span></span>
+                                <asp:Label Text="" ID="lblCantProductos" runat="server" CssClass="position-absolute translate-middle badge rounded-pill bg-secondary" />
+                                <span class="visually-hidden">Items en el carrito</span>
                             </a>
+                            
                         </li>
                         <li class="nav-item">
                             <a class="nav-link disabled">Disabled</a>

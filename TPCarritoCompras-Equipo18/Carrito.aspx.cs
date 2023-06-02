@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Web.DynamicData;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -31,6 +32,24 @@ namespace TPCarritoCompras_Equipo18
                     precioTotal += item.Precio;
                 }
                 lblTotal.Text = "Total: " + precioTotal.ToString();
+            }
+        }
+
+        protected void dgvCarrito_RowCommand(object sender, GridViewCommandEventArgs e)
+        {
+            if(e.CommandName == "Eliminar")
+            {
+                int index= Convert.ToInt32(e.CommandArgument);
+                GridViewRow row = dgvCarrito.Rows[index];
+
+                List<Articulo> aux = (List<Articulo>)Session["Articulos"];
+                aux.RemoveAt(index);
+                Session["Articulos"] = aux;
+
+                dgvCarrito.DataSource = Session["Articulos"];
+                dgvCarrito.DataBind();
+
+                Response.Redirect("Carrito.aspx",false);
             }
         }
     }

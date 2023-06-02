@@ -9,12 +9,16 @@
         <%if (precioTotal != 0){ %>
         <div id="Container-items">
         <asp:GridView ID="dgvCarrito" runat="server" CssClass="table table-dark table-striped"
-            AutoGenerateColumns="false">
+            AutoGenerateColumns="false" OnRowCommand="dgvCarrito_RowCommand">
             <Columns>
                 <asp:BoundField HeaderText="Codigo" DataField="Codigo" />
                 <asp:BoundField HeaderText="Nombre" DataField="Nombre" />
                 <asp:BoundField HeaderText="Precio" DataField="Precio" />
-
+                <asp:TemplateField>
+                    <ItemTemplate>
+                        <asp:LinkButton ID="lbtn_Eliminar" Text="Eliminar" runat="server" CommandName="Eliminar" CommandArgument="<%# ((GridViewRow)Container).RowIndex %>" />
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
         </asp:GridView>
         </div>

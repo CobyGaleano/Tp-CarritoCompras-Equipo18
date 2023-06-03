@@ -5,6 +5,9 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Listado de productos</h1>
     
+    <%--<asp:Label Text="Filtrar" runat="server" />
+    <asp:TextBox runat="server" ID="txtFiltro" AutoPostBack="true" OnTextChanged="filtrar_TextChanged" />
+        CODIGO POR CORREGIR ROMPE EL PROGRAMA, NECESITA REVISION--%>
     
     <%-- No uso repeater porque nunca pude hacer funcionar el onclick --%>
     <div class="container">

@@ -21,7 +21,8 @@ namespace TPCarritoCompras_Equipo18
                 articuloNegocio negocio = new articuloNegocio();
                 ImagenNegocio img = new ImagenNegocio();
 
-                List<Articulo> articulos = negocio.listar();
+               // Session.Add("ListaArticulos", negocio.listar()); PARTE COMENTADA DEL FILTRO
+                List<Articulo> articulos =negocio.listar();
                 listaArticulos = articulos;
                 listaImagenes = img.listar();
 
@@ -53,5 +54,17 @@ namespace TPCarritoCompras_Equipo18
                 Session.Add("Articulos", carritoArticulos);
             }
         }
+
+        /* protected void filtrar_TextChanged(object sender, EventArgs e)
+         {
+             List<Articulo> lista = (List<Articulo>)Session["ListaArticulos"];
+             List<Articulo> filtrada = lista.FindAll(x => x.Nombre.ToUpper().Contains(txtFiltro.Text.ToUpper()));
+             listaArticulos = filtrada;
+
+         ENVIA LISTADO VACIO AL FOREACH Y ROMPE EL PROGRAMA
+
+         Referencia a objeto no establecida como instancia de un objeto.'
+
+         }*/
     }
 }

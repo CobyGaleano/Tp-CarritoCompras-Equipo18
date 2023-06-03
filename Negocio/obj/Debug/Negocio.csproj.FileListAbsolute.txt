@@ -70,3 +70,12 @@ S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Carrito-Compras\Negocio\o
 S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Carrito-Compras\Negocio\obj\Debug\Negocio.dll
 S:\UTN\Segundo año\Programación 3\Trabajos Practicos\Carrito-Compras\Negocio\obj\Debug\Negocio.pdb
+C:\Tp-Ultima2\Carrito-Compras\Negocio\bin\Debug\Negocio.dll
+C:\Tp-Ultima2\Carrito-Compras\Negocio\bin\Debug\Negocio.pdb
+C:\Tp-Ultima2\Carrito-Compras\Negocio\bin\Debug\Dominio.dll
+C:\Tp-Ultima2\Carrito-Compras\Negocio\bin\Debug\Dominio.pdb
+C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.dll
+C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.pdb

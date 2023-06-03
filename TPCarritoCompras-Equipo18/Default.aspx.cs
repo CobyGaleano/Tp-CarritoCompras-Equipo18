@@ -55,6 +55,8 @@ namespace TPCarritoCompras_Equipo18
             }
         }
 
+    
+
         /* protected void filtrar_TextChanged(object sender, EventArgs e)
          {
              List<Articulo> lista = (List<Articulo>)Session["ListaArticulos"];

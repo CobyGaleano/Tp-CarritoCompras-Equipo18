@@ -17,8 +17,7 @@ namespace TPCarritoCompras_Equipo18
         {
             articuloNegocio negocio = new articuloNegocio();
             Articulo seleccionado;
-            if (!IsPostBack)
-            {
+            
                 //Recibo el id del articulo seleccionado
                 Id = int.Parse(Request.QueryString["id"]);
                 ImagenNegocio img = new ImagenNegocio();
@@ -34,7 +33,7 @@ namespace TPCarritoCompras_Equipo18
                 lblMarca.Text = seleccionado.marca.Descripcion;
                 lblPrecio.Text = seleccionado.Precio.ToString();
                 lblAñadir.Text = "no se cliqueo";
-            }
+            
         }
 
         protected void btn_Añadir_Click(object sender, EventArgs e)
@@ -42,24 +41,20 @@ namespace TPCarritoCompras_Equipo18
             lblAñadir.Text = "se añadio el producto al carrito";
             try
             {
-                //Si en la url viene un id agrego el articulo a la session
-                //if (Request.QueryString["Id"] != null)
-                //{
+               
                 List<Articulo> carritoArticulos;
                 articuloNegocio negocio = new articuloNegocio();
                 Articulo seleccionado;
 
-                //Si es el primer articulo le creo una instancia a la lista
                 if (Session["Articulos"] == null)
                 {
                     carritoArticulos = new List<Articulo>();
                 }
-                //Si no a la lista le agrego a la lista lo que tiene la session 
                 else
                 {
                     carritoArticulos = (List<Articulo>)Session["Articulos"];
                 }
-                //string id = Request.QueryString["id"];
+                
                 //busco el articulo por el id
                 seleccionado = negocio.buscar(Id);
                 //seleccionado = negocio.buscar(int.Parse(id));

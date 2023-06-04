@@ -79,3 +79,12 @@ C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs
 C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.dll
 C:\Tp-Ultima2\Carrito-Compras\Negocio\obj\Debug\Negocio.pdb
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\bin\Debug\Negocio.dll
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\bin\Debug\Negocio.pdb
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\bin\Debug\Dominio.dll
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\bin\Debug\Dominio.pdb
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\obj\Debug\Negocio.dll
+C:\TP-ult3\Tp-CarritoCompras-Equipo18\Negocio\obj\Debug\Negocio.pdb

@@ -16,16 +16,16 @@ namespace TPCarritoCompras_Equipo18
         public List<Imagen> listaImagenes { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {
+            ImagenNegocio img = new ImagenNegocio();
+            listaImagenes = img.listar();
             if (!IsPostBack)
             {
                 articuloNegocio negocio = new articuloNegocio();
-                ImagenNegocio img = new ImagenNegocio();
 
                 //Session.Add("listaArticulos", negocio.listar()); //PARTE COMENTADA DEL FILTRO
 
                 List<Articulo> articulos = negocio.listar();
                 listaArticulos = articulos;
-                listaImagenes = img.listar();
 
             }
             /*else 

@@ -1,0 +1,13 @@
+﻿.bg-principal {
+    background-image: linear-gradient(purple, cyan);
+}
+.bg-footer {
+    background-image: linear-gradient(rgb(0, 255, 255),rgb(59, 194, 194),rgb(20, 138, 138));
+}
+.footer {
+    padding: 1px;
+}
+.footer-item {
+    color: white;
+    text-decoration: none;
+}

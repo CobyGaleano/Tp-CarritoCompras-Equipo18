@@ -31,7 +31,7 @@ namespace TPCarritoCompras_Equipo18
                 {
                     precioTotal += item.Precio;
                 }
-                lblTotal.Text = "Total: " + precioTotal.ToString();
+                lblTotal.Text = "Total: " + precioTotal.ToString("C2");
             }
         }
 

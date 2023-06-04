@@ -16,7 +16,7 @@
 
     <%-- Falta validar si no tiene imagen o si la imagen esta rota  --%>
     <%-- Falta meterle cariño al front --%>
-    <div class="container bg-light p-3">
+    <div class="container bg-white p-3">
         <div class="row">
             <%-- Dibujo los label --%>
             <div class="col-sm-4">

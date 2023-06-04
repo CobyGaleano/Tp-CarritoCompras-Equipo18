@@ -31,7 +31,7 @@ namespace TPCarritoCompras_Equipo18
                 lblDescripcion.Text = seleccionado.Descripcion;
                 lblCategoria.Text = seleccionado.categoria.Descripcion;
                 lblMarca.Text = seleccionado.marca.Descripcion;
-                lblPrecio.Text = seleccionado.Precio.ToString();
+                lblPrecio.Text = seleccionado.Precio.ToString("C2");
             
         }
 

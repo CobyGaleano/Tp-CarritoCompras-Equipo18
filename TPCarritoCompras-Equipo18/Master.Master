@@ -24,21 +24,18 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                       <%-- <li class="nav-item">
-                            <a href="Default.aspx" class="nav-link active" aria-current="page">Articulos</a>
-                        </li>--%>
-                        <li class="nav-item">
+                       <li class="nav-item">
+                            <a href="Default.aspx" class="nav-link active" aria-current="page">Inicio</a>
+                        </li>
+                        <li class="nav-item p-1">
                             <a href="Carrito.aspx" class="nav-link"> <i class="bi bi-cart4"></i>
                                 <asp:Label Text="" ID="lblCantProductos" runat="server" CssClass="position-absolute translate-middle badge rounded-pill bg-secondary" />
                                 <span class="visually-hidden">Items en el carrito</span>
                             </a>
-
                         </li>
-                       
                     </ul>
-
                     <asp:TextBox runat="server" ID="txtFiltro" class="form-control me-2" placeholder="Search" aria-label="Search"></asp:TextBox>
                     <asp:button runat="server" Text="Buscar" ID="btnBuscar" OnClick="btnBuscar_Click" class="btn btn-outline-light" ></asp:button>
 

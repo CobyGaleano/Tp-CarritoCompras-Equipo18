@@ -5,6 +5,10 @@
         #container-carousel {
             width: 350px;
             height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
         }
     </style>
 </asp:Content>

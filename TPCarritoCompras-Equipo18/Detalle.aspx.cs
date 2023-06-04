@@ -32,13 +32,11 @@ namespace TPCarritoCompras_Equipo18
                 lblCategoria.Text = seleccionado.categoria.Descripcion;
                 lblMarca.Text = seleccionado.marca.Descripcion;
                 lblPrecio.Text = seleccionado.Precio.ToString();
-                lblAñadir.Text = "no se cliqueo";
             
         }
 
         protected void btn_Añadir_Click(object sender, EventArgs e)
         {
-            lblAñadir.Text = "se añadio el producto al carrito";
             try
             {
                
@@ -62,7 +60,8 @@ namespace TPCarritoCompras_Equipo18
                 carritoArticulos.Add(seleccionado);
                 //agrego la lista a la session
                 Session.Add("Articulos", carritoArticulos);
-                //}                
+                //}
+                Response.Redirect("Detalle.aspx?id="+Id, false);
             }
             catch (Exception ex)
             {

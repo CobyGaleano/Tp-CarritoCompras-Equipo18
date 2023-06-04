@@ -40,6 +40,7 @@ namespace TPCarritoCompras_Equipo18
         protected void btnBuscar_Click(object sender, EventArgs e)
         {
             List<Articulo> lista = (List<Articulo>)Session["lista"];
+            
             listaFiltrada = lista.FindAll(x => x.Nombre.ToUpper().Contains(txtFiltro.Text.ToUpper()));
             Session.Add("artFiltrado", listaFiltrada);
             //Session.Add("imgFiltrada", imagenFiltrada); TODAVIA NO SE ME OCURRE COMO FILTRAR IMAGEN

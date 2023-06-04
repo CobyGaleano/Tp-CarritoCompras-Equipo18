@@ -14,19 +14,25 @@
         <div class="row row-cols-1 row-cols-md-3 g-4">
             
             <%-- Leo los articulos --%>
+            <%if (listaArticulos == null)
+                { listaArticulos = (List<Dominio.Articulo>)Session["artFiltrado"]; }  %>
             <%foreach (Dominio.Articulo art in listaArticulos)
                 {
                     string imagen = "https://static.vecteezy.com/system/resources/previews/004/141/669/non_2x/no-photo-or-blank-image-icon-loading-images-or-missing-image-mark-image-not-available-or-image-coming-soon-sign-simple-nature-silhouette-in-frame-isolated-illustration-vector.jpg";
                     bool encontro = false;
                     //Leo las imagenes
-                    foreach (Dominio.Imagen img in listaImagenes)
+                    if (listaImagenes != null)
                     {
-                        if (art.Id == img.IdArticulo && encontro == false)
+                        foreach (Dominio.Imagen img in listaImagenes)
                         {
-                            imagen = img.ImagenUrl;
-                            encontro = true;
+                            if (art.Id == img.IdArticulo && encontro == false)
+                            {
+                                imagen = img.ImagenUrl;
+                                encontro = true;
+                            }
                         }
                     }
+
 
             %>
             <div class="col">

@@ -21,12 +21,18 @@ namespace TPCarritoCompras_Equipo18
                 articuloNegocio negocio = new articuloNegocio();
                 ImagenNegocio img = new ImagenNegocio();
 
-               // Session.Add("ListaArticulos", negocio.listar()); PARTE COMENTADA DEL FILTRO
-                List<Articulo> articulos =negocio.listar();
+                //Session.Add("listaArticulos", negocio.listar()); //PARTE COMENTADA DEL FILTRO
+
+                List<Articulo> articulos = negocio.listar();
                 listaArticulos = articulos;
                 listaImagenes = img.listar();
 
             }
+            /*else 
+            {
+                listaArticulos = (List<Articulo>)Session["artFiltrado"];
+
+            }*/
 
             //Si en la url viene un id agrego el articulo a la session
             if (Request.QueryString["Id"] != null)
@@ -55,7 +61,7 @@ namespace TPCarritoCompras_Equipo18
             }
         }
 
-    
+
 
         /* protected void filtrar_TextChanged(object sender, EventArgs e)
          {

@@ -39,8 +39,8 @@
                        
                     </ul>
 
-                    <input id="txtFiltro" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    <asp:TextBox runat="server" ID="txtFiltro" class="form-control me-2" placeholder="Search" aria-label="Search"></asp:TextBox>
+                    <asp:button runat="server" Text="Buscar" ID="btnBuscar" OnClick="btnBuscar_Click" class="btn btn-outline-light" ></asp:button>
 
                 </div>
             </div>

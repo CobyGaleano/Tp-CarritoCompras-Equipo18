@@ -5,7 +5,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="container bg-white p-3 position-relative" id="container-cart">
         <h1>Carrito de compras</h1>
-        
+        <hr />
         <%if (precioTotal != 0){ %>
         <div id="Container-items">
         <asp:GridView ID="dgvCarrito" runat="server" CssClass="table table-dark table-striped"

@@ -91,7 +91,7 @@
                         <ContentTemplate>
                             <div class="col-8 col-sm-12 p-3">
                                 <%--<a href="Detalle.aspx?id=<%:Id%>" class="btn btn-secondary p-2">Añadir al carrito</a>--%>
-                                <asp:Button ID="btn_Añadir" runat="server" Text="Añadir al carrito" OnClick="btn_Añadir_Click"  CssClass="btn btn-secondary p-2" />
+                                <asp:Button ID="btn_Añadir" runat="server" Text="Añadir al carrito" OnClick="btn_Añadir_Click"  CssClass="btn btn-secondary p-2 bg-button" />
                             </div>
                         </ContentTemplate>
                     </asp:UpdatePanel>

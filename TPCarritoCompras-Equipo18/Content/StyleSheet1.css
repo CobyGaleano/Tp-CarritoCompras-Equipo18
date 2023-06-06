@@ -1,13 +1,44 @@
 ﻿.bg-principal {
-    background-image: linear-gradient(purple, cyan);
+    background-color: #9400de;
+    background-image: linear-gradient(147deg, #9400de 0%, #00dfdd 100%);
 }
+
+.bg-button {
+    background-color: #9400de;
+    background-image: linear-gradient(144deg, #9400de 0%, #ca00de 100%);
+}
+
 .bg-footer {
-    background-image: linear-gradient(rgb(0, 255, 255),rgb(59, 194, 194),rgb(20, 138, 138));
+    background-color: #9400de;
+    background-image: linear-gradient(147deg, #9400de 0%, #00dfdd 100%);
 }
+
 .footer {
-    padding: 1px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
+
+footer ul {
+    list-style: none;
+}
+
 .footer-item {
     color: white;
     text-decoration: none;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-img {
+    min-height: 320px;
+}
+
+#container-cart {
+    min-height:500px;
 }
